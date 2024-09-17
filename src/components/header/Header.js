@@ -16,7 +16,6 @@ const onMouseOut = (event) => {
 };
 
 const Header = () => {
-  // const navigate = useNavigate()
   const theme = useContext(ThemeContext);
   const link = settings.isSplash ? "/splash" : "home";
   return (
