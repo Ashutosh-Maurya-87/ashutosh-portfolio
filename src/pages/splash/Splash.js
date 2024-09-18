@@ -17,12 +17,6 @@ function AnimatedSplash(props) {
 const Splash = () => {
   const theme = useContext(ThemeContext)
 
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     redirect: false,
-  //   };
-  // }
   const [state, setState] = useState(false)
   useEffect(
     () => {
@@ -32,14 +26,6 @@ const Splash = () => {
         clearTimeout(id);
       }
     }, [])
-  // componentDidMount() {
-  //   this.id = setTimeout(() => this.setState({ redirect: true }), 5500);
-  // }
-
-  // componentWillMount() {
-  //   clearTimeout(this.id);
-  // }
-
   
     return state ? (
       <Navigate to="/home" />

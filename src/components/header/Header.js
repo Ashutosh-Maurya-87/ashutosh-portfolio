@@ -34,7 +34,9 @@ const Header = () => {
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
           </label>
-          <ul className="menu" style={{ backgroundColor: theme.body }}>
+          <ul className="menu" 
+          // style={{ backgroundColor: theme.body }}
+          >
             <li>
               <NavLink
                 to="/home"
@@ -83,7 +85,7 @@ const Header = () => {
                 Projects
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to="/opensource"
                 tag={Link}
@@ -94,7 +96,7 @@ const Header = () => {
               >
                 Open Source
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 to="/contact"

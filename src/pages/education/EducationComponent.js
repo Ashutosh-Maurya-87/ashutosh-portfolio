@@ -31,8 +31,8 @@ const Education = () => {
           </Fade>
           <Educations />
         </div>
-        <Footer theme={this.props.theme} />
-        <TopButton theme={this.props.theme} />
+        <Footer  />
+        <TopButton/>
       </div>
     );
 }

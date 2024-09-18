@@ -5,7 +5,7 @@ import { greeting } from "../../portfolio.js";
 import { ThemeContext } from "../../context/themeContext.js";
 /* eslint-disable jsx-a11y/accessible-emoji */
 
-export default function Footer(props) {
+export default function Footer() {
   const theme = useContext(ThemeContext)
   return (
     <div className="footer-div">

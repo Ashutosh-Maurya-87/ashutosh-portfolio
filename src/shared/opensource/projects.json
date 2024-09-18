@@ -1,47 +1,71 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "Beyond_QA",
+      "name": "Beyond QA",
+      "createdAt": "",
+      "url": "https://beyondqa.ai/",
+      "description": "Project is for the BPO.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "React Js",
+          "iconifyClass": "simple-icons:react"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "Redux",
+          "iconifyClass": "simple-icons:redux"
         },
         {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "shipcom",
+      "name": "Shipcom",
+      "createdAt": "",
+      "url": "https://shipcom.io/",
+      "description": "Project is for the American Navy. Who wants to connect with local server during the connection loss.",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "React Js",
+          "iconifyClass": "simple-icons:react"
+        },
+        {
+          "name": "Redux",
+          "iconifyClass": "simple-icons:redux"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "id": "travander",
+      "name": "Travander",
+      "createdAt": "",
+      "url": "https://travander.in",
+      "description": "This Project is for the Traveller to Create trip and give the facility to the taveller's.",
       "isFork": false,
       "languages": [
         {
@@ -57,17 +81,21 @@
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "React Js",
+          "iconifyClass": "simple-icons:react"
+        },
+        {
+          "name": "Redux",
+          "iconifyClass": "simple-icons:redux"
         }
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "id": "cribfox",
+      "name": "Cribfox",
+      "createdAt": "",
+      "url": "https://cribfox.com",
+      "description": "Project is for the Real-Estate companies to send digitally signed forms.",
       "isFork": false,
       "languages": [
         {
@@ -79,35 +107,51 @@
           "iconifyClass": "logos-css-3"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React Js",
+          "iconifyClass": "simple-icons:react"
+        },
+        {
+          "name": "Redux",
+          "iconifyClass": "simple-icons:redux"
+        }
+      ]
+    },
+    {
+      "id": "faircent",
+      "name": "Genesis Faircent",
+      "createdAt": "",
+      "url": "https://www.faircent.in",
+      "description": "This project is related to providing loan facilities to the buyer.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
         },
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
-      "languages": [
+        },
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "React Js",
+          "iconifyClass": "simple-icons:react"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "id": "gsv-system",
+      "name": "GSV Systems",
+      "createdAt": "",
+      "url": "https://gsvsystems.com/index.php",
+      "description": "This project was for the network. To give all the facility and all the range of networks as Wifi, Router, 5g Technologies, 6g Technologies etc.",
       "isFork": false,
       "languages": [
         {
@@ -117,6 +161,14 @@
         {
           "name": "CSS",
           "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "React Js",
+          "iconifyClass": "simple-icons:react"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         }
       ]
     }

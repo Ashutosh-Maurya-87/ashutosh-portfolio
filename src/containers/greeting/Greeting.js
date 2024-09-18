@@ -13,10 +13,6 @@ export default function Greeting() {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assets/images/feelingProud.svg")}
-						></img> */}
             <FeelingProud theme={theme} />
           </div>
           <div className="greeting-text-div">
