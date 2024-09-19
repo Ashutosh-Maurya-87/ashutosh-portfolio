@@ -2,7 +2,7 @@
   "private": true,
   "name": "ashutosh_maurya_portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/Ashutosh-Maurya-87/ashutosh-portfolio",
+  "homepage": "https://Ashutosh-Maurya-87.github.io/ashutosh-portfolio",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
