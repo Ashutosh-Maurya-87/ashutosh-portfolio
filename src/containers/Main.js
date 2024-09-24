@@ -65,7 +65,8 @@ export default function Main() {
         />
         <Route
           path="*"
-          element={<Error404 />}
+          element={<Home />}
+          // element={<Error404 />}
         />
       </Routes>
     </BrowserRouter>
