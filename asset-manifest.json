@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/ashutosh-portfolio/static/css/main.3762890c.chunk.css",
-    "main.js": "/ashutosh-portfolio/static/js/main.0414ef8b.chunk.js",
-    "main.js.map": "/ashutosh-portfolio/static/js/main.0414ef8b.chunk.js.map",
+    "main.js": "/ashutosh-portfolio/static/js/main.c06a5762.chunk.js",
+    "main.js.map": "/ashutosh-portfolio/static/js/main.c06a5762.chunk.js.map",
     "runtime-main.js": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js",
     "runtime-main.js.map": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js.map",
-    "static/js/2.a2369a9c.chunk.js": "/ashutosh-portfolio/static/js/2.a2369a9c.chunk.js",
-    "static/js/2.a2369a9c.chunk.js.map": "/ashutosh-portfolio/static/js/2.a2369a9c.chunk.js.map",
+    "static/js/2.37a2426e.chunk.js": "/ashutosh-portfolio/static/js/2.37a2426e.chunk.js",
+    "static/js/2.37a2426e.chunk.js.map": "/ashutosh-portfolio/static/js/2.37a2426e.chunk.js.map",
     "index.html": "/ashutosh-portfolio/index.html",
-    "precache-manifest.0bbb9789c2265a08dda8429e16a53722.js": "/ashutosh-portfolio/precache-manifest.0bbb9789c2265a08dda8429e16a53722.js",
+    "precache-manifest.c436bbb527d8abbd96769adb1c0c3481.js": "/ashutosh-portfolio/precache-manifest.c436bbb527d8abbd96769adb1c0c3481.js",
     "service-worker.js": "/ashutosh-portfolio/service-worker.js",
     "static/css/main.3762890c.chunk.css.map": "/ashutosh-portfolio/static/css/main.3762890c.chunk.css.map",
+    "static/media/MSS_logo.png": "/ashutosh-portfolio/static/media/MSS_logo.51ce4606.png",
     "static/media/animated_ashutosh.png": "/ashutosh-portfolio/static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "/ashutosh-portfolio/static/media/animated_logo.dcd6dee2.svg",
     "static/media/cp-logo.png": "/ashutosh-portfolio/static/media/cp-logo.6a5121d7.png",
+    "static/media/drmlau_logo.png": "/ashutosh-portfolio/static/media/drmlau_logo.4a43c2da.png",
     "static/media/education.svg": "/ashutosh-portfolio/static/media/education.3bab7a9d.svg",
     "static/media/experience.svg": "/ashutosh-portfolio/static/media/experience.a00ede3f.svg",
     "static/media/feelingProud.svg": "/ashutosh-portfolio/static/media/feelingProud.2936ce95.svg",
@@ -30,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c646fad2.js",
-    "static/js/2.a2369a9c.chunk.js",
+    "static/js/2.37a2426e.chunk.js",
     "static/css/main.3762890c.chunk.css",
-    "static/js/main.0414ef8b.chunk.js"
+    "static/js/main.c06a5762.chunk.js"
   ]
 }

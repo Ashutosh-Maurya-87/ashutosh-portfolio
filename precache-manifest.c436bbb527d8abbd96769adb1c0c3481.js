@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87d30e14da33594b611fd8b3f9560fd2",
+    "revision": "e70ce2f3926977130e608e17c0aaf40d",
     "url": "/ashutosh-portfolio/index.html"
   },
   {
-    "revision": "b845abfd238acc43ca27",
+    "revision": "f8ab62e4b2b379f878ea",
     "url": "/ashutosh-portfolio/static/css/main.3762890c.chunk.css"
   },
   {
-    "revision": "773b5756a6a8b3ba7515",
-    "url": "/ashutosh-portfolio/static/js/2.a2369a9c.chunk.js"
+    "revision": "7d8a663201c34e70ae59",
+    "url": "/ashutosh-portfolio/static/js/2.37a2426e.chunk.js"
   },
   {
-    "revision": "b845abfd238acc43ca27",
-    "url": "/ashutosh-portfolio/static/js/main.0414ef8b.chunk.js"
+    "revision": "f8ab62e4b2b379f878ea",
+    "url": "/ashutosh-portfolio/static/js/main.c06a5762.chunk.js"
   },
   {
     "revision": "fde7d3781fea42f236ff",
     "url": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js"
+  },
+  {
+    "revision": "51ce460616cbdb99590978560bb2821d",
+    "url": "/ashutosh-portfolio/static/media/MSS_logo.51ce4606.png"
   },
   {
     "revision": "eaf02c2d0158b6b4b8c2a0a0cf830a04",
@@ -30,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6a5121d7e1e0e75c30d4846126e2f036",
     "url": "/ashutosh-portfolio/static/media/cp-logo.6a5121d7.png"
+  },
+  {
+    "revision": "4a43c2da38eb765d4fc19dcc31feb82d",
+    "url": "/ashutosh-portfolio/static/media/drmlau_logo.4a43c2da.png"
   },
   {
     "revision": "3bab7a9dc4324f1b2364d25a47fcfcf0",
