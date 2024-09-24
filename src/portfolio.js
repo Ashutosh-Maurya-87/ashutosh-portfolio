@@ -260,7 +260,7 @@ const degrees = {
     {
       title: "Dr. Ram Manohar Lohia Awadh University, Ayodhya Uttar Pradesh",
       subtitle: "Bachelor Of Computer Application (BCA)",
-      logo_path: "iiitk_logo.png",
+      logo_path: "drmlau_logo.png",
       alt_name: "logo_graduation",
       duration: "2017 - 2020",
       descriptions: [
@@ -273,7 +273,7 @@ const degrees = {
     {
       title: "M.S.S Naaz Inter College",
       subtitle: "Non-Medical",
-      logo_path: "iu_logo.png",
+      logo_path: "MSS_logo.png",
       alt_name: "naaz inter college image",
       duration: "2015 - 2017",
       descriptions: [
