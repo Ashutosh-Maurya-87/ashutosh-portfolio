@@ -11,7 +11,6 @@ function App() {
         themeConfig 
       }
     >
-      {/* <GlobalStyles /> */}
       <div>
         <Main theme={themeConfig} />
       </div>
