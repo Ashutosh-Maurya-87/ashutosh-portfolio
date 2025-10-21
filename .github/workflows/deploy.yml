@@ -19,30 +19,27 @@ jobs:
       # Action to install Node.js environment
       uses: actions/setup-node@v3
       with:
-        node-version: '16' # Recommended LTS version for React apps
+        node-version: '18' # Recommended LTS version for React apps
 
     - name: Install Dependencies
-      # Install project dependencies, including 'gh-pages' (which you added to package.json)
+      # Install project dependencies
       run: npm install
       
-    # -------------------------------------------------------------
-    # NEW STEP ADDED: Configure Git User for gh-pages
-    # This fixes the "Author identity unknown" ProcessError.
-    # -------------------------------------------------------------
-    - name: Configure Git User
-      run: |
-        git config user.email "ashumaurya486@gmail.com"
-        git config user.name "Ashutosh-Maurya-87"
+    - name: Run Build (Creates 'build' folder)
+      # Build the React application
+      run: npm run build
       
-    - name: Run Build and Deploy
-      # Runs the 'predeploy' (npm run build) and 'deploy' (gh-pages -d build) scripts sequentially.
-      # The deploy step pushes the contents of the 'build' folder to the 'gh-pages' branch.
-      run: npm run deploy
-      env:
-        # Pass the GitHub Personal Access Token (PAT) for deployment authentication.
-        # GITHUB_TOKEN is a secret automatically provided by GitHub Actions.
-        # We use a custom token here because 'gh-pages' sometimes requires explicit configuration.
-        # This uses the default GitHub Token which has permissions to push to 'gh-pages'.
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # Setting the Public URL environment variable for robustness
-        PUBLIC_URL: /ashutosh-portfolio
+    # -------------------------------------------------------------
+    # FIXED DEPLOYMENT STEP: 
+    # This step uses a dedicated action that correctly handles authentication 
+    # and bypasses the manual Git configuration issue you were seeing.
+    # -------------------------------------------------------------
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        # GITHUB_TOKEN is automatically provided by GitHub Actions for write permissions
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        # The directory to deploy (React's production output)
+        publish_dir: ./build
+        # The branch where the static files will be hosted
+        publish_branch: gh-pages
