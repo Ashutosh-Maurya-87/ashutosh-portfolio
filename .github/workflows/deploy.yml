@@ -7,6 +7,11 @@ on:
 
 jobs:
   build-and-deploy:
+    # --- NEW PERMISSIONS BLOCK ADDED HERE ---
+    permissions:
+      contents: write # Grant the GITHUB_TOKEN write access to the repository
+    # ----------------------------------------
+
     # Use the latest Ubuntu environment to run the steps
     runs-on: ubuntu-latest
     
