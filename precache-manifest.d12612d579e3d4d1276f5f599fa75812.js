@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eabecfad9465a61f77eb838d67f6155e",
+    "revision": "b28f1091cf47e44c0ceea8dce2c3378f",
     "url": "/ashutosh-portfolio/index.html"
   },
   {
-    "revision": "f4466b38ef4e00affb8d",
-    "url": "/ashutosh-portfolio/static/css/main.1996e940.chunk.css"
+    "revision": "85d79a7e067d254e2b1b",
+    "url": "/ashutosh-portfolio/static/css/main.ff72ea5d.chunk.css"
   },
   {
-    "revision": "3ddb5a6ccb72ec2a58a1",
-    "url": "/ashutosh-portfolio/static/js/2.9f29f97f.chunk.js"
+    "revision": "006fdacb1a6019856db3",
+    "url": "/ashutosh-portfolio/static/js/2.c63091a4.chunk.js"
   },
   {
-    "revision": "f4466b38ef4e00affb8d",
-    "url": "/ashutosh-portfolio/static/js/main.017d7988.chunk.js"
+    "revision": "85d79a7e067d254e2b1b",
+    "url": "/ashutosh-portfolio/static/js/main.4ed42ae9.chunk.js"
   },
   {
     "revision": "fde7d3781fea42f236ff",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ashutosh-portfolio/static/media/nvidia_logo.e1704b41.jpg"
   },
   {
-    "revision": "23ec0df87477402220829d2fed39d80a",
-    "url": "/ashutosh-portfolio/static/media/poly9-svg.23ec0df8.svg"
+    "revision": "ab34bcd6e0b9caf69b60a80e8b342146",
+    "url": "/ashutosh-portfolio/static/media/poly9-svg.ab34bcd6.svg"
   },
   {
     "revision": "b8ba948796d7ab532673c5ed2f315e74",
