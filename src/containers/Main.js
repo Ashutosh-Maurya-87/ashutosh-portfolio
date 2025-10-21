@@ -11,8 +11,9 @@ import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
 export default function Main() {
+  const appBaseName = process.env.PUBLIC_URL || '/';
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename={appBaseName}>
       <Routes>
         <Route
           path="/"
@@ -66,7 +67,7 @@ export default function Main() {
         <Route
           path="*"
           element={<Home />}
-          // element={<Error404 />}
+        // element={<Error404 />}
         />
       </Routes>
     </BrowserRouter>
