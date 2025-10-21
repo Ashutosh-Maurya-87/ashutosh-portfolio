@@ -349,7 +349,7 @@ const experience = {
           company: "Poly9",
           company_url: "https://www.polynine.com/",
           logo_path: "poly9-svg.svg",
-          duration: "November 2021 - January 202",
+          duration: "November 2021 - January 2022",
           location: "Ahmedabad, Gujrat",
           description:
             "I worked here as a junior web developer.",
