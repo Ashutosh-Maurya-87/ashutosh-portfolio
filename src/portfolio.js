@@ -13,7 +13,8 @@ const seo = {
   og: {
     title: "Ashutosh Maurya Portfolio",
     type: "website",
-    url: "http://ashutoshMaurya.com/",
+    // url: "http://ashutoshMaurya.com/",
+    url: "https://ashutosh-maurya-87.github.io/ashutosh-portfolio/",
   },
 };
 
@@ -277,11 +278,34 @@ const degrees = {
       alt_name: "naaz inter college image",
       duration: "2015 - 2017",
       descriptions: [
-        // "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        // "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        // "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I focused on the tough stuff like 'Math, Physics, and Chemistry', which taught me how to break down big problems and think critically.",
+        "⚡ I spent a lot of time turning 'math and science ideas' into practical solutions, which sharpened my ability to think logically and understand data.",
+        "⚡ This stream gave me the 'structured thinking' and strong 'number skills' to jump into engineering and tech careers."
       ],
       website_link: "",
+    },
+  ],
+};
+
+const certifications = {
+  certifications: [
+    {
+      title: "Frontend Developer (React Js)",
+      subtitle: "Hacker Rank",
+      logo_path: "hackerrank_logo.jpg",
+      certificate_link:
+        "https://www.hackerrank.com/certificates/iframe/026f15ba4301",
+      alt_name: "Hacker_Rank",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Ai for All: From Basic to Gen Ai Practice",
+      subtitle: "Nvidia Academy",
+      logo_path: "nvidia_logo.jpg",
+      certificate_link:
+        "",
+      alt_name: "Nvidia_logo",
+      color_code: "#4285F499",
     },
   ],
 };
@@ -291,7 +315,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I have worked with many evolving startups as Frontend and Junior web Developer, Designer and Software Architect. I have also worked with some well established companies mostly as Frontend AI Developer. I love organising events and that is why I am also involved with many opensource communities.",
+    "I have worked with many evolving startups as Frontend and Junior web Developer, Designer and Software Developer. I have also worked with some well established companies mostly as Frontend Developer. I love organising events and that is why I am also involved with many opensource communities.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -303,7 +327,7 @@ const experience = {
           company: "Contact Point 360",
           company_url: "https://contactpoint360.com/",
           logo_path: "cp-logo.png",
-          duration: "November 202 - Present",
+          duration: "November 2022 - Present",
           location: "Gurugram, Haryana, India",
           description:
             "Improving functionality of the pages. Experience working on structure model of companyies website.",
@@ -432,7 +456,7 @@ export {
   skills,
   // competitiveSites,
   degrees,
-  // certifications,
+  certifications,
   experience,
   projectsHeader,
   publicationsHeader,
