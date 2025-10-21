@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ashutosh-portfolio/static/css/main.3762890c.chunk.css",
-    "main.js": "/ashutosh-portfolio/static/js/main.c8e93126.chunk.js",
-    "main.js.map": "/ashutosh-portfolio/static/js/main.c8e93126.chunk.js.map",
+    "main.css": "/ashutosh-portfolio/static/css/main.8ab24dc2.chunk.css",
+    "main.js": "/ashutosh-portfolio/static/js/main.bf851e93.chunk.js",
+    "main.js.map": "/ashutosh-portfolio/static/js/main.bf851e93.chunk.js.map",
     "runtime-main.js": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js",
     "runtime-main.js.map": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js.map",
-    "static/js/2.37a2426e.chunk.js": "/ashutosh-portfolio/static/js/2.37a2426e.chunk.js",
-    "static/js/2.37a2426e.chunk.js.map": "/ashutosh-portfolio/static/js/2.37a2426e.chunk.js.map",
+    "static/js/2.b5fe95c7.chunk.js": "/ashutosh-portfolio/static/js/2.b5fe95c7.chunk.js",
+    "static/js/2.b5fe95c7.chunk.js.map": "/ashutosh-portfolio/static/js/2.b5fe95c7.chunk.js.map",
     "index.html": "/ashutosh-portfolio/index.html",
-    "precache-manifest.8fc8c88ec6945f6a65ecf1deb035c422.js": "/ashutosh-portfolio/precache-manifest.8fc8c88ec6945f6a65ecf1deb035c422.js",
+    "precache-manifest.301b45a95cd9589a3bcdabce290eab5b.js": "/ashutosh-portfolio/precache-manifest.301b45a95cd9589a3bcdabce290eab5b.js",
     "service-worker.js": "/ashutosh-portfolio/service-worker.js",
-    "static/css/main.3762890c.chunk.css.map": "/ashutosh-portfolio/static/css/main.3762890c.chunk.css.map",
+    "static/css/main.8ab24dc2.chunk.css.map": "/ashutosh-portfolio/static/css/main.8ab24dc2.chunk.css.map",
     "static/media/MSS_logo.png": "/ashutosh-portfolio/static/media/MSS_logo.51ce4606.png",
-    "static/media/animated_ashutosh.png": "/ashutosh-portfolio/static/media/animated_ashutosh.eaf02c2d.png",
+    "static/media/animated_ashutosh.png": "/ashutosh-portfolio/static/media/animated_ashutosh.16a8ed47.png",
     "static/media/animated_logo.svg": "/ashutosh-portfolio/static/media/animated_logo.dcd6dee2.svg",
     "static/media/cp-logo.png": "/ashutosh-portfolio/static/media/cp-logo.6a5121d7.png",
     "static/media/drmlau_logo.png": "/ashutosh-portfolio/static/media/drmlau_logo.4a43c2da.png",
@@ -21,8 +21,6 @@
     "static/media/feelingProud.svg": "/ashutosh-portfolio/static/media/feelingProud.2936ce95.svg",
     "static/media/github_logo.png": "/ashutosh-portfolio/static/media/github_logo.6eeb2e81.png",
     "static/media/greeting.svg": "/ashutosh-portfolio/static/media/greeting.2ba18701.svg",
-    "static/media/iiitk_logo.png": "/ashutosh-portfolio/static/media/iiitk_logo.571a8584.png",
-    "static/media/iu_logo.png": "/ashutosh-portfolio/static/media/iu_logo.60ed0bd3.png",
     "static/media/jsFramework.svg": "/ashutosh-portfolio/static/media/jsFramework.5b4a6449.svg",
     "static/media/manOnTable.svg": "/ashutosh-portfolio/static/media/manOnTable.83ac24fb.svg",
     "static/media/mettle-crow-logo.png": "/ashutosh-portfolio/static/media/mettle-crow-logo.b61883af.png",
@@ -32,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c646fad2.js",
-    "static/js/2.37a2426e.chunk.js",
-    "static/css/main.3762890c.chunk.css",
-    "static/js/main.c8e93126.chunk.js"
+    "static/js/2.b5fe95c7.chunk.js",
+    "static/css/main.8ab24dc2.chunk.css",
+    "static/js/main.bf851e93.chunk.js"
   ]
 }
