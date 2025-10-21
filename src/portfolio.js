@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "I am a passionate frontend developer, who always thrives to work on end to end projects which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1SihIx9BVtYXpwCJaDzvDa4LvavYmCLGn/view?usp=sharing",
+    'https://drive.google.com/file/d/1Vc7J2-SL7eBWTD7rUUBU1BEZtmecOd9O/view?usp=drive_link',
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/Ashutosh-Maurya-87",
 };
@@ -210,7 +210,7 @@ const skills = {
         },
       ],
     },
-    
+
     // {
     //   title: "UI/UX Developer",
     //   fileName: "DesignImg",
