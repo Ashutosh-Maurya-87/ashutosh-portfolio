@@ -19,7 +19,7 @@ jobs:
       # Action to install Node.js environment
       uses: actions/setup-node@v3
       with:
-        node-version: '18' # Recommended LTS version for React apps
+        node-version: '16' # Recommended LTS version for React apps
 
     - name: Install Dependencies
       # Install project dependencies
