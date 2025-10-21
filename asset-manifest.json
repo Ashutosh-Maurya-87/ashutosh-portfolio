@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ashutosh-portfolio/static/css/main.ff72ea5d.chunk.css",
-    "main.js": "/ashutosh-portfolio/static/js/main.102535d6.chunk.js",
-    "main.js.map": "/ashutosh-portfolio/static/js/main.102535d6.chunk.js.map",
+    "main.js": "/ashutosh-portfolio/static/js/main.ac376ea2.chunk.js",
+    "main.js.map": "/ashutosh-portfolio/static/js/main.ac376ea2.chunk.js.map",
     "runtime-main.js": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js",
     "runtime-main.js.map": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js.map",
     "static/js/2.c63091a4.chunk.js": "/ashutosh-portfolio/static/js/2.c63091a4.chunk.js",
     "static/js/2.c63091a4.chunk.js.map": "/ashutosh-portfolio/static/js/2.c63091a4.chunk.js.map",
     "index.html": "/ashutosh-portfolio/index.html",
-    "precache-manifest.f967422eb6f1df03bbae099814394275.js": "/ashutosh-portfolio/precache-manifest.f967422eb6f1df03bbae099814394275.js",
+    "precache-manifest.d59db1559b1ff2492617e9591a33120e.js": "/ashutosh-portfolio/precache-manifest.d59db1559b1ff2492617e9591a33120e.js",
     "service-worker.js": "/ashutosh-portfolio/service-worker.js",
     "static/css/main.ff72ea5d.chunk.css.map": "/ashutosh-portfolio/static/css/main.ff72ea5d.chunk.css.map",
     "static/media/MSS_logo.png": "/ashutosh-portfolio/static/media/MSS_logo.51ce4606.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.c646fad2.js",
     "static/js/2.c63091a4.chunk.js",
     "static/css/main.ff72ea5d.chunk.css",
-    "static/js/main.102535d6.chunk.js"
+    "static/js/main.ac376ea2.chunk.js"
   ]
 }
