@@ -40,13 +40,13 @@ export default function Main() {
             <Education />
           }
         />
-        <Route
+        {/* <Route
           path="/opensource"
           element={
             <Opensource />
 
           }
-        />
+        /> */}
         <Route
           path="/contact"
           element={<Contact />}
