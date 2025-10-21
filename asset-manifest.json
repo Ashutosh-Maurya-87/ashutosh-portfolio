@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ashutosh-portfolio/static/css/main.8ab24dc2.chunk.css",
-    "main.js": "/ashutosh-portfolio/static/js/main.bf851e93.chunk.js",
-    "main.js.map": "/ashutosh-portfolio/static/js/main.bf851e93.chunk.js.map",
+    "main.css": "/ashutosh-portfolio/static/css/main.1996e940.chunk.css",
+    "main.js": "/ashutosh-portfolio/static/js/main.017d7988.chunk.js",
+    "main.js.map": "/ashutosh-portfolio/static/js/main.017d7988.chunk.js.map",
     "runtime-main.js": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js",
     "runtime-main.js.map": "/ashutosh-portfolio/static/js/runtime-main.c646fad2.js.map",
-    "static/js/2.b5fe95c7.chunk.js": "/ashutosh-portfolio/static/js/2.b5fe95c7.chunk.js",
-    "static/js/2.b5fe95c7.chunk.js.map": "/ashutosh-portfolio/static/js/2.b5fe95c7.chunk.js.map",
+    "static/js/2.9f29f97f.chunk.js": "/ashutosh-portfolio/static/js/2.9f29f97f.chunk.js",
+    "static/js/2.9f29f97f.chunk.js.map": "/ashutosh-portfolio/static/js/2.9f29f97f.chunk.js.map",
     "index.html": "/ashutosh-portfolio/index.html",
-    "precache-manifest.301b45a95cd9589a3bcdabce290eab5b.js": "/ashutosh-portfolio/precache-manifest.301b45a95cd9589a3bcdabce290eab5b.js",
+    "precache-manifest.cfc85b39950da0764f6ff45fc3555830.js": "/ashutosh-portfolio/precache-manifest.cfc85b39950da0764f6ff45fc3555830.js",
     "service-worker.js": "/ashutosh-portfolio/service-worker.js",
-    "static/css/main.8ab24dc2.chunk.css.map": "/ashutosh-portfolio/static/css/main.8ab24dc2.chunk.css.map",
+    "static/css/main.1996e940.chunk.css.map": "/ashutosh-portfolio/static/css/main.1996e940.chunk.css.map",
     "static/media/MSS_logo.png": "/ashutosh-portfolio/static/media/MSS_logo.51ce4606.png",
     "static/media/animated_ashutosh.png": "/ashutosh-portfolio/static/media/animated_ashutosh.16a8ed47.png",
     "static/media/animated_logo.svg": "/ashutosh-portfolio/static/media/animated_logo.dcd6dee2.svg",
@@ -24,14 +24,15 @@
     "static/media/jsFramework.svg": "/ashutosh-portfolio/static/media/jsFramework.5b4a6449.svg",
     "static/media/manOnTable.svg": "/ashutosh-portfolio/static/media/manOnTable.83ac24fb.svg",
     "static/media/mettle-crow-logo.png": "/ashutosh-portfolio/static/media/mettle-crow-logo.b61883af.png",
+    "static/media/nvidia_logo.jpg": "/ashutosh-portfolio/static/media/nvidia_logo.e1704b41.jpg",
     "static/media/poly9-svg.svg": "/ashutosh-portfolio/static/media/poly9-svg.23ec0df8.svg",
     "static/media/projects_image.svg": "/ashutosh-portfolio/static/media/projects_image.b8ba9487.svg",
     "static/media/ui_ux_design.svg": "/ashutosh-portfolio/static/media/ui_ux_design.d6363089.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c646fad2.js",
-    "static/js/2.b5fe95c7.chunk.js",
-    "static/css/main.8ab24dc2.chunk.css",
-    "static/js/main.bf851e93.chunk.js"
+    "static/js/2.9f29f97f.chunk.js",
+    "static/css/main.1996e940.chunk.css",
+    "static/js/main.017d7988.chunk.js"
   ]
 }

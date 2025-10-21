@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c71732c0dbbea0857c243976c82b2021",
+    "revision": "eabecfad9465a61f77eb838d67f6155e",
     "url": "/ashutosh-portfolio/index.html"
   },
   {
-    "revision": "a1ae59892f5fcb1d3036",
-    "url": "/ashutosh-portfolio/static/css/main.8ab24dc2.chunk.css"
+    "revision": "f4466b38ef4e00affb8d",
+    "url": "/ashutosh-portfolio/static/css/main.1996e940.chunk.css"
   },
   {
-    "revision": "ae7d5a5ae9419c927637",
-    "url": "/ashutosh-portfolio/static/js/2.b5fe95c7.chunk.js"
+    "revision": "3ddb5a6ccb72ec2a58a1",
+    "url": "/ashutosh-portfolio/static/js/2.9f29f97f.chunk.js"
   },
   {
-    "revision": "a1ae59892f5fcb1d3036",
-    "url": "/ashutosh-portfolio/static/js/main.bf851e93.chunk.js"
+    "revision": "f4466b38ef4e00affb8d",
+    "url": "/ashutosh-portfolio/static/js/main.017d7988.chunk.js"
   },
   {
     "revision": "fde7d3781fea42f236ff",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b61883af0f544d68c1755ec6ba0fa368",
     "url": "/ashutosh-portfolio/static/media/mettle-crow-logo.b61883af.png"
+  },
+  {
+    "revision": "e1704b410e30c8d8490ee945b000f44c",
+    "url": "/ashutosh-portfolio/static/media/nvidia_logo.e1704b41.jpg"
   },
   {
     "revision": "23ec0df87477402220829d2fed39d80a",
