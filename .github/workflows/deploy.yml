@@ -25,6 +25,15 @@ jobs:
       # Install project dependencies, including 'gh-pages' (which you added to package.json)
       run: npm install
       
+    # -------------------------------------------------------------
+    # NEW STEP ADDED: Configure Git User for gh-pages
+    # This fixes the "Author identity unknown" ProcessError.
+    # -------------------------------------------------------------
+    - name: Configure Git User
+      run: |
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git config user.name "github-actions[bot]"
+      
     - name: Run Build and Deploy
       # Runs the 'predeploy' (npm run build) and 'deploy' (gh-pages -d build) scripts sequentially.
       # The deploy step pushes the contents of the 'build' folder to the 'gh-pages' branch.
