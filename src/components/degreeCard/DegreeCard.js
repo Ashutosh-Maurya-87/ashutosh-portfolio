@@ -7,73 +7,65 @@ const DegreeCard = (props) => {
   const { degree } = props
   const theme = useContext(ThemeContext)
   return (
-    <div className="degree-card">
-      {degree.logo_path && (
-        <Flip left duration={2000}>
-          <div className="card-img">
-            <img
-              style={{
-                maxWidth: "100%",
-                maxHeight: "100%",
-                transform: "scale(0.9)",
-              }}
-              src={require(`../../assets/images/${degree.logo_path}`)}
-              alt={degree.alt_name}
-            />
-          </div>
-        </Flip>
-      )}
-      <Fade right duration={2000} distance="40px">
-        <div
-          className="card-body"
-          style={{ width: degree.logo_path ? "90%" : "100%" }}
-        >
-          <div
-            className="body-header"
-            style={{ backgroundColor: theme.headerColor }}
-          >
-            <div className="body-header-title">
-              <h2 className="card-title" style={{ color: theme.text }}>
+    <article className="degree-item">
+      <div className="degree-rail" aria-hidden="true">
+        {degree.logo_path ? (
+          <Flip left duration={1400}>
+            <div className="degree-logo" style={{ borderColor: theme.text }}>
+              <img
+                className="degree-logo-img"
+                src={require(`../../assets/images/${degree.logo_path}`)}
+                alt={degree.alt_name}
+                loading="lazy"
+              />
+            </div>
+          </Flip>
+        ) : (
+          <div className="degree-dot" style={{ backgroundColor: theme.text }} />
+        )}
+        <div className="degree-line" style={{ backgroundColor: theme.text }} />
+      </div>
+
+      <Fade bottom duration={1200} distance="20px">
+        <div className="degree-card" style={{ borderColor: theme.headerColor }}>
+          <div className="degree-card-top">
+            <div className="degree-title-wrap">
+              <h3 className="degree-title" style={{ color: theme.text }}>
                 {degree.title}
-              </h2>
-              <h3 className="card-subtitle" style={{ color: theme.text }}>
+              </h3>
+              <p className="degree-subtitle" style={{ color: theme.text }}>
                 {degree.subtitle}
-              </h3>
+              </p>
             </div>
-            <div className="body-header-duration">
-              <h3 className="duration" style={{ color: theme.text }}>
+            <div className="degree-meta">
+              <span className="degree-duration" style={{ color: theme.text }}>
                 {degree.duration}
-              </h3>
+              </span>
             </div>
           </div>
-          <div className="body-content">
-            {degree.descriptions.map((sentence) => {
-              return (
-                <p className="content-list" style={{ color: theme.text }}>
-                  {sentence}
-                </p>
-              );
-            })}
+
+          <div className="degree-card-body">
+            {degree.descriptions.map((sentence) => (
+              <p key={sentence} className="degree-desc" style={{ color: theme.text }}>
+                {sentence}
+              </p>
+            ))}
+
             {degree.website_link && (
               <a
+                className="degree-link"
                 href={degree.website_link}
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ color: theme.text }}
               >
-                <div
-                  className="visit-btn"
-                  style={{ backgroundColor: theme.headerColor }}
-                >
-                  <p className="btn" style={{ color: theme.text }}>
-                    Visit Website
-                  </p>
-                </div>
+                Visit website →
               </a>
             )}
           </div>
         </div>
       </Fade>
-    </div>
+    </article>
   );
 }
 
