@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import "./Header.css";
-import { Fade } from "react-reveal";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 import { ThemeContext } from "../../context/themeContext.js";
 import { NavLink, Link } from 'react-router-dom'
+
 const onMouseEnter = (event, color) => {
   const el = event.target;
   el.style.backgroundColor = color;
@@ -18,10 +18,23 @@ const onMouseOut = (event) => {
 const Header = () => {
   const theme = useContext(ThemeContext);
   const link = settings.isSplash ? "/splash" : "home";
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <Fade top duration={1000} distance="20px" >
+    <>
       <SeoHeader />
-      <div className='main-class-header'>
+      <div
+        className={`main-class-header ${isScrolled ? 'scrolled' : ''}`}
+        style={{ backgroundColor: theme.body }}
+      >
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}> &lt;</span>
@@ -34,9 +47,7 @@ const Header = () => {
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
           </label>
-          <ul className="menu" 
-          // style={{ backgroundColor: theme.body }}
-          >
+          <ul className="menu" style={{ backgroundColor: theme.body }}>
             <li>
               <NavLink
                 to="/home"
@@ -85,18 +96,6 @@ const Header = () => {
                 Projects
               </NavLink>
             </li>
-            {/* <li>
-              <NavLink
-                to="/opensource"
-                tag={Link}
-                activestyle={{ fontWeight: "bold" }}
-                style={{ color: theme.text }}
-                onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                onMouseOut={(event) => onMouseOut(event)}
-              >
-                Open Source
-              </NavLink>
-            </li> */}
             <li>
               <NavLink
                 to="/contact"
@@ -112,7 +111,7 @@ const Header = () => {
           </ul>
         </header>
       </div>
-    </Fade>
+    </>
   );
 }
 export default Header;

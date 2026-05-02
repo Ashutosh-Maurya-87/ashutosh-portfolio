@@ -1,45 +1,3 @@
-/* @font-face {
-  font-family: "Agustina Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
-}
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Bold";
-  src: local("Google Sans Bold"),
-    url("./assets/fonts/GoogleSans-Bold.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Bold Italic";
-  src: local("Google Sans Bold Italic"),
-    url("./assets/fonts/GoogleSans-BoldItalic.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Italic";
-  src: local("Google Sans Italic"),
-    url("./assets/fonts/GoogleSans-Italic.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Medium";
-  src: local("Google Sans Medium"),
-    url("./assets/fonts/GoogleSans-Medium.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Medium Italic";
-  src: local("Google Sans Medium Italic"),
-    url("./assets/fonts/GoogleSans-MediumItalic.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Regular";
-  src: local("Google Sans Regular"),
-    url("./assets/fonts/GoogleSans-Regular.ttf") format("woff");
-} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -49,11 +7,51 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+/* Hide scrollbars but keep scrolling enabled */
+html,
+body {
+  -ms-overflow-style: none; /* IE/old Edge */
+  scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
 body {
   margin: 0;
+  /* Global offset for fixed header so routed pages don't slide under it */
+  padding-top: var(--app-header-offset, 72px);
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-anchor: none;
+}
+
+:root {
+  --app-header-offset: 72px;
+  --page-reveal-distance: 110px;
+}
+
+@media (max-width: 960px) {
+  :root {
+    --app-header-offset: 64px;
+  }
+}
+
+/*
+  Many sections use react-reveal "Fade bottom distance=40px".
+  During the animation, content moves upward by that distance; 
+  this extra top padding ensures it never ends up visually tucked under the fixed header.
+*/
+.basic-contact,
+.basic-education,
+.basic-experience,
+.basic-projects,
+.error-class,
+.greet-main {
+  padding-top: var(--page-reveal-distance);
 }
 /* Media Query */
 @media (max-width: 1380px) {

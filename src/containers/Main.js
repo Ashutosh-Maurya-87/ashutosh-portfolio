@@ -1,5 +1,5 @@
-import React from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, Routes, BrowserRouter, useLocation } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -8,10 +8,25 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    // Prevent browser scroll restoration + avoid small "jump" on reload/layout shifts.
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [pathname]);
+
+  return null;
+}
+
 export default function Main() {
   const appBaseName = process.env.PUBLIC_URL || '/';
   return (
     <BrowserRouter basename={appBaseName}>
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"
@@ -39,13 +54,6 @@ export default function Main() {
             <Education />
           }
         />
-        {/* <Route
-          path="/opensource"
-          element={
-            <Opensource />
-
-          }
-        /> */}
         <Route
           path="/contact"
           element={<Contact />}
