@@ -212,45 +212,6 @@ const skills = {
       ],
     },
 
-    // {
-    //   title: "UI/UX Developer",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "⚡ Designing highly attractive user interface for mobile and web applications",
-    //     "⚡ Customizing logo designs and building logos from scratch",
-    //     "⚡ Creating the flow of application functionalities to optimize user experience",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     // {
-    //     //   skillName: "Inkscape",
-    //     //   fontAwesomeClassname: "simple-icons:inkscape",
-    //     //   style: {
-    //     //     color: "#000000",
-    //     //   },
-    //     // },
-    //   ],
-    // },
   ],
 };
 
@@ -306,7 +267,7 @@ const certifications = {
       issued: "Jan 2026",
       credential_id: "9E51964A783D",
       logo_path: "hackerrank_logo.svg",
-      certificate_link: "",
+      certificate_link: "https://www.hackerrank.com/certificates/iframe/9e51964a783d",
       alt_name: "HackerRank",
       color_code: "#16a34a33",
     },
@@ -316,18 +277,18 @@ const certifications = {
       issued: "Nov 2025",
       credential_id: "B95E1F21A0ED",
       logo_path: "hackerrank_logo.svg",
-      certificate_link: "",
+      certificate_link: "https://www.hackerrank.com/certificates/iframe/b95e1f21a0ed",
       alt_name: "HackerRank",
       color_code: "#16a34a33",
     },
     {
       title: "Microsoft Copilot Studio",
-      subtitle: "Microsoft",
+      subtitle: "Simplilearn (Microsoft Copilot Studio)",
       issued: "Apr 2026",
       credential_id: "10076020",
       logo_path: "microsoft_logo.svg",
-      certificate_link: "",
-      alt_name: "Microsoft",
+      certificate_link: "https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0ODc1IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvMTAwNzYwMjBfMTAzMjMwNzBfMTc3NTcwNzYwMzkxNS5wbmciLCJ1c2VybmFtZSI6IkFzaHV0b3NoIE1hdXJ5YSJ9&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F7866%2FMicrosoft-Copilot-Studio-%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1371162960583891246&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVL8jKzTLNcPdIMkqyrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUAo13jvz8AAAA%3D",
+      alt_name: "Microsoft Copilot Studio",
       color_code: "#0ea5e933",
     },
     {
